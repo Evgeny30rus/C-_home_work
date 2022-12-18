@@ -15,9 +15,9 @@ Console.Write("Введите второе число: b ");
 int b = Convert.ToInt32(Console.ReadLine());
 
 if (a < b)
-    Console.WriteLine($"a меньше b, b {b} - max");
+    Console.WriteLine($"{b} - max");
 else
-    Console.WriteLine($"a больше b, а {a} - max");
+    Console.WriteLine($"{a} - max");
 
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и 
@@ -59,6 +59,25 @@ int b2 = 2;
 
 
 if (a2 % b2 == 0)
-    Console.WriteLine("a2 Кратное");
+    Console.WriteLine("a2 Четное");
 else
-    Console.WriteLine($"а2 некратное т.к. не делиться без остатка на {b2}");
+    Console.WriteLine($"а2 нечетное т.к. не делиться без остатка на {b2}");
+
+
+// Задача 8: Напишите программу, которая на вход принимает число (N), 
+// а на выходе показывает все чётные числа от 1 до N.
+
+Console.Write("вввести число показать все чётные числа от 1 до N");
+Console.WriteLine();
+
+Console.Write("Введите число: N =");
+int N = Convert.ToInt32(Console.ReadLine());
+
+int[] array = new int[N];
+
+Console.Write("вывод на экран всех четных чисел от 1 до N");
+Console.WriteLine();
+
+for (int i = 2; i <= N; i=i+2)
+	Console.Write( i + " ");
+Console.WriteLine();
