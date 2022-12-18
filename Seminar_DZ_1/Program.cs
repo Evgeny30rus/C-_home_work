@@ -45,3 +45,20 @@ else
     else max = a1;
 
 Console.WriteLine($"Max число = {max}");
+
+
+// Задача 6: Напишите программу, которая на вход принимает число и 
+//выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+Console.Write("вввести число и проверить его чётность");
+Console.WriteLine();
+
+Console.Write("Введите число для проверки: a2 =");
+int a2 = Convert.ToInt32(Console.ReadLine());
+int b2 = 2;
+
+
+if (a2 % b2 == 0)
+    Console.WriteLine("a2 Кратное");
+else
+    Console.WriteLine($"а2 некратное т.к. не делиться без остатка на {b2}");
