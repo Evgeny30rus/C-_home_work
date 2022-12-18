@@ -9,7 +9,7 @@ Console.WriteLine();
 // 918 -> 1
 
 Console.Write("из трехзначного числа на выходе покажет вторую цифру этого числа");
-
+Console.WriteLine();
 Console.Write("Введите трехзначное число, типа: ааa ");
 Console.WriteLine();
 int r = Convert.ToInt32(Console.ReadLine());
@@ -32,10 +32,10 @@ Console.WriteLine($"{n4}"); //вывод другой
 // 7 -> да
 // 1 -> нет
 
-Console.WriteLine("Введите числом день недели от 1 до 7 : ");
+Console.WriteLine("Введите числом выходной день недели от 1 до 7 : ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-while (a < 5 || a > 7){
+while (a < 1 || a > 7){
 	Console.WriteLine("Вы ошиблись!! Введите число: ");
 	a = Convert.ToInt32(Console.ReadLine());
 }
@@ -48,24 +48,10 @@ else if (a==5) Console.WriteLine("Нет. Пятница - практическ�
 else if (a==6) Console.WriteLine("Да. Суббота - УРА! выходной день");
 else if (a==7) Console.WriteLine("Да. Воскресенье - УРА! выходной день");
 
-
-
-
-
-
-
 Console.WriteLine();
 Console.WriteLine();
 Console.WriteLine();
 Console.WriteLine();
-
-
-
-
-
-
-
-
 
 
 // Задача 13: Напишите программу, которая выводит третью цифру 
@@ -85,10 +71,24 @@ Console.WriteLine();
 
 // Console.WriteLine($"{n2}"); //вывод другой
 
+int r1 = Convert.ToInt32(Console.ReadLine());
 
 
+while (r1 < 100 )
+{
+	Console.WriteLine("третьей цифры в таком чсиле не будет, повторите ввод: ");
+	r1 = Convert.ToInt32(Console.ReadLine());
+    }
+
+string t = string.Format("{0:###}", r1);
+
+// Console.WriteLine(t.ToString("#####"));
+
+// var x = t.Substring(t.Length-3);
+// Console.WriteLine(x);
 
 
+Console.WriteLine(t);
 
 
 
