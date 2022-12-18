@@ -27,22 +27,22 @@ Console.Write("вввести 3 числа и вывести мах число �
 Console.WriteLine();
 
 Console.Write("Введите первое число: a1 ");
-int a1 = Convert.ToInt32(Console.ReadLine());
+double a1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число: b1 ");
-int b1 = Convert.ToInt32(Console.ReadLine());
+double b1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число: с1 ");
-int c1 = Convert.ToInt32(Console.ReadLine());
+double c1 = Convert.ToInt32(Console.ReadLine());
 
-int max;
+double max;
 
-if (a1 < b1 && b1 > c1)
+if (a1 <= b1 && b1 >= c1)
    max = b1;
-else 
-    if (a1 < c1 && c1 > b1)
-    max = c1;
-    else max = a1;
+   else 
+        if (a1 < c1 && c1 > b1)
+        max = c1;
+        else max = a1;
 
 Console.WriteLine($"Max число = {max}");
 
