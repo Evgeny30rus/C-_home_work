@@ -81,3 +81,5 @@ Console.WriteLine();
 for (int i = 2; i <= N; i=i+2)
 	Console.Write( i + " ");
 Console.WriteLine();
+
+Console.WriteLine("Спасибо, за потраченное время :-) ");
