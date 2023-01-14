@@ -64,9 +64,29 @@ Console.WriteLine(sum);
 Console.WriteLine();
 Console.WriteLine("конец алгоритма 27");
 
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов, которые вводит пользователь,
+// и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
 
+Console.WriteLine();
+Console.Write("Задача 29: Напишите программу, которая задаёт массив из 8 элементов, которые вводит пользователь и выводит их на экран");
+Console.WriteLine();  
+Console.Write("ВВедите 8 целых чисел по порядку, разделяя их нажатием кнопки ENTER");
+Console.WriteLine();
 
+int g;
+int[] A = new int[8];
+        g = 0;
+            while (g<8)
+            {
+                A[g] = Convert.ToInt32(Console.ReadLine());
+                g=g+1;
+                Console.WriteLine();
 
+            }
+Console.Write("Итоговый массив");
+    Console.WriteLine($"[{string.Join(", ", A)}]"); // вид массива с разделителями
 
-
-
+Console.WriteLine();
+Console.WriteLine("конец алгоритма 29");
