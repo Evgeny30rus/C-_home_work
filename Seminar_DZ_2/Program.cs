@@ -60,38 +60,17 @@ Console.WriteLine();
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-Console.Write("из числа на выходе покажет третью цифру, при отсуствии выдаст сообщение");
-
-Console.Write("Введите число: ");
+Console.WriteLine ("Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.");
 Console.WriteLine();
-//int r1 = Convert.ToInt32(Console.ReadLine());
 
-// int n1 = r1 / 10; // берем только целую часть до запятой
-// int n2 = n1 % 10; // берем только остаток после запятой
+Console.WriteLine ("введите число");
+Console.WriteLine();
+string f = Console.ReadLine();
 
-// Console.WriteLine($"{n2}"); //вывод другой
-
-int r1 = Convert.ToInt32(Console.ReadLine());
-
-
-while (r1 < 100 )
-{
-	Console.WriteLine("третьей цифры в таком чсиле не будет, повторите ввод: ");
-	r1 = Convert.ToInt32(Console.ReadLine());
-    }
-
-string t = string.Format("{0:###}", r1);
-
-// Console.WriteLine(t.ToString("#####"));
-
-// var x = t.Substring(t.Length-3);
-// Console.WriteLine(x);
-
-
-Console.WriteLine(t);
-
-
-
+if (f.Length >= 3)
+    Console.WriteLine(f[2]);
+else
+    Console.WriteLine("Третьей цифры нет");
 
 Console.WriteLine();
 Console.WriteLine("Спасибо, за потраченное время :-) ");
