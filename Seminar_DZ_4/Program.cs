@@ -16,6 +16,7 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("ВВедите число B");
 Console.WriteLine();
 int b = Convert.ToInt32(Console.ReadLine());
+b = Math.Abs(b);                                               // Math.Abs(b) - берет модуль числа B
 int result = a;
 int i = 2;
 
@@ -48,7 +49,7 @@ int sum = 0;
 
 while (Math.Abs(n) > 0)
 {
-    int n1 = Math.Abs(n) % 10; // Math.Abs(n) - берет модуль числа N
+    int n1 = Math.Abs(n) % 10;                                // Math.Abs(n) - берет модуль числа N
     n = n / 10; 
     sum = sum + n1; 
     i++;
@@ -62,3 +63,10 @@ Console.WriteLine(sum);
 
 Console.WriteLine();
 Console.WriteLine("конец алгоритма 27");
+
+
+
+
+
+
+
