@@ -29,7 +29,7 @@ Console.WriteLine();
 Console.WriteLine("результат:");
 Console.WriteLine(result);
 Console.WriteLine();
-Console.WriteLine("конец алгоритма");
+Console.WriteLine("конец алгоритма 25");
 
 
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
@@ -38,32 +38,27 @@ Console.WriteLine("конец алгоритма");
 // 9012 -> 12
 Console.WriteLine();
 Console.Write("Задача 27: Напишите программу, которая принимает на вход число N и выдаёт сумму цифр в числе.");
-Console.WriteLine();
+Console.WriteLine();  // могут быть и отрицательные числа
 
 Console.Write("ВВедите число N");
 Console.WriteLine();
 
 int n = Convert.ToInt32(Console.ReadLine());
-int res = 0;
+int sum = 0;
 
-while (i)
+while (Math.Abs(n) > 0)
 {
-    int n
-
-
+    int n1 = Math.Abs(n) % 10; // Math.Abs(n) - берет модуль числа N
+    n = n / 10; 
+    sum = sum + n1; 
     i++;
+    Console.WriteLine();
+    Console.WriteLine(n1);
 }
-
-
-
-
-Console.WriteLine(res);
-
-
 
 Console.Write("Результат действия");
 Console.WriteLine();
-Console.Write(count);
+Console.WriteLine(sum);
 
 Console.WriteLine();
-Console.WriteLine("конец алгоритма");
+Console.WriteLine("конец алгоритма 27");
