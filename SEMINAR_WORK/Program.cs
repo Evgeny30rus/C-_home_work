@@ -132,26 +132,29 @@ Console.WriteLine("Hello, World!");
 // [1 2 3 4 5] -> 5 8 9
 // [6 7 3 6] -> 36 21
 
-void input_array(int [] array)          // создание и заполнение массива рандомом
-{
-    for (int i = 0; i < array.Length; i++)
-        array[i] = new Random().Next(-9, 10); // [-100;100]
-}
+// void input_array(int [] array)          // создание и заполнение массива рандомом
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] = new Random().Next(-9, 10); // [-100;100]
+// }
 
 
-void release(int[] array)
-{
-    for (int i = 0; i <= array.Length/2; i++)                            // идем до середины включительно
-        Console.Write($"{array[i] * array[array.Length - 1 - i]} ");     // первый и последний * друг на друга
+// void release(int[] array)
+// {
+//     for (int i = 0; i <= array.Length/2; i++)                            // идем до середины включительно
+//         Console.Write($"{array[i] * array[array.Length - 1 - i]} ");     // первый и последний * друг на друга
         
-    //[1, 2 , 3, 4 , 5]
+//     //[1, 2 , 3, 4 , 5]
     
-}
+// }
 
-Console.Clear();
-Console.Write("Введите кол-во элементов: ");
-int n = Convert.ToInt32(Console.ReadLine());
-int[] array = new int[n];
-input_array(array);
-Console.WriteLine($"[{string.Join(", ", array)}]");
-release(array);
+// Console.Clear();
+// Console.Write("Введите кол-во элементов: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int[] array = new int[n];
+// input_array(array);
+// Console.WriteLine($"[{string.Join(", ", array)}]");
+// release(array);
+
+
+
