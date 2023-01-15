@@ -44,42 +44,36 @@ Console.WriteLine();
 Console.Write("Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.");
 Console.WriteLine();
 
-// void input_array1(int [] array1)          // создание и заполнение массива рандомом
-// {
-//     for (int i = 0; i < array1.Length; i++)
-//         array1[i] = new Random().Next(0,999); // [0;999]
-// }
+void input_array1(int [] array1)          // создание и заполнение массива рандомом
+{
+    for (int i = 0; i < array1.Length; i++)
+        array1[i] = new Random().Next(0,9); // [0;9]
+}
 
-// int f1 = 1;
-// int s1 = 0;
-// void release1(int[] array1)
-// {
-//     int count1 = 0;
-//     for (int i = 0; i < array1.Length; i++)
-//         if (array1[i] % f1 > 0)
-//             //s1 =  array1[i] + s1; 
-//             count1 ++;
-//             //Console.WriteLine(count1);
-       
-// }
+int count1 = 0;
+int s1 = 0;
+int f1 = 2;
+void release1(int[] array1)                               // задание процедуры
+{
+    for (int i = 0; i < array1.Length; i++)
+        if (array1[i] % f1 > 0)
+            s1=array1[i]+s1; 
+            count1 ++;
+    Console.WriteLine($"сумма элементов  {s1}");
+}
 
-// // Console.Clear();
-// Console.Write("Введите кол-во элементов массива: ");
-// int n1 = Convert.ToInt32(Console.ReadLine());
-// int[] array1 = new int[n1];
-// input_array1(array1);
-// Console.WriteLine($"[{string.Join(", ", array1)}]");
+Console.Write("Введите кол-во элементов массива: ");
+int n1 = Convert.ToInt32(Console.ReadLine());
+int[] array1 = new int[n1];
+input_array1(array1);
+Console.WriteLine($"[{string.Join(", ", array1)}]");
+release1(array1);                                        // выполнение
 
-// Console.WriteLine(release1(array1));
-// Console.WriteLine(s1);
-// Console.WriteLine();
-// Console.WriteLine("конец алгоритма 36");
-
-Console.Write("задача 36 ошибка");
+Console.WriteLine();
+Console.WriteLine("конец алгоритма 36");
 
 // Задача 38: Задайте массив чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
-Console.WriteLine();
 Console.WriteLine();
 
 Console.Write("Задача 38: Задайте массив чисел. Найдите разницу между максимальным и минимальным элементов массива");
@@ -92,8 +86,6 @@ void input_array2(int [] array2)
 }
 
 int result=0;
-int max=0; 
-int min=0;
 void release2(int[] array2)
 {
     int max = array2[0], min = array2[0];
@@ -108,8 +100,6 @@ void release2(int[] array2)
     result = max - min;
 }
 
-
-//Console.Clear();
 Console.Write("Введите кол-во элементов: ");
 int n2 = Convert.ToInt32(Console.ReadLine());
 int[] array2 = new int[n2];
@@ -121,3 +111,4 @@ Console.WriteLine(result);
 Console.WriteLine();
 Console.WriteLine("конец алгоритма 38");
 Console.WriteLine();
+Console.WriteLine("Спасибо, за внимание.");
