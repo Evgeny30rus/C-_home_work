@@ -13,3 +13,18 @@ J:\Мой диск\0 GEEK BRAINS WORK\git_work\C#_home_work\C-_home_work\Seminar
 J:\Мой диск\0 GEEK BRAINS WORK\git_work\C#_home_work\C-_home_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.pdb
 J:\Мой диск\0 GEEK BRAINS WORK\git_work\C#_home_work\C-_home_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.genruntimeconfig.cache
 J:\Мой диск\0 GEEK BRAINS WORK\git_work\C#_home_work\C-_home_work\Seminar_DZ_2\obj\Debug\net7.0\ref\Seminar_DZ_2.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\bin\Debug\net7.0\Seminar_DZ_2.exe
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\bin\Debug\net7.0\Seminar_DZ_2.deps.json
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\bin\Debug\net7.0\Seminar_DZ_2.runtimeconfig.json
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\bin\Debug\net7.0\Seminar_DZ_2.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\bin\Debug\net7.0\Seminar_DZ_2.pdb
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.csproj.AssemblyReference.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.GeneratedMSBuildEditorConfig.editorconfig
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.AssemblyInfoInputs.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.AssemblyInfo.cs
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.csproj.CoreCompileInputs.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\refint\Seminar_DZ_2.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.pdb
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\Seminar_DZ_2.genruntimeconfig.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_2\obj\Debug\net7.0\ref\Seminar_DZ_2.dll
