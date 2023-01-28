@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C#_home_work\\C-_home_work\\Seminar_DZ_1\\Seminar_DZ_1.csproj": {}
+    "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_1\\Seminar_DZ_1.csproj": {}
   },
   "projects": {
-    "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C#_home_work\\C-_home_work\\Seminar_DZ_1\\Seminar_DZ_1.csproj": {
+    "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_1\\Seminar_DZ_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C#_home_work\\C-_home_work\\Seminar_DZ_1\\Seminar_DZ_1.csproj",
+        "projectUniqueName": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_1\\Seminar_DZ_1.csproj",
         "projectName": "Seminar_DZ_1",
-        "projectPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C#_home_work\\C-_home_work\\Seminar_DZ_1\\Seminar_DZ_1.csproj",
+        "projectPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_1\\Seminar_DZ_1.csproj",
         "packagesPath": "C:\\Users\\EO\\.nuget\\packages\\",
-        "outputPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C#_home_work\\C-_home_work\\Seminar_DZ_1\\obj\\",
+        "outputPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EO\\AppData\\Roaming\\NuGet\\NuGet.Config"

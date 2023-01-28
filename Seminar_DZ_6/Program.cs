@@ -2,7 +2,6 @@
 Console.Clear();
 Console.WriteLine("Hello, World!");
 
-
 // Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 // 0, 7, 8, -2, -2 -
 // 1, -7, 567, 89, 223-> 3
@@ -50,16 +49,35 @@ Console.WriteLine();
 Console.Write("Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых");
 Console.WriteLine();  
 Console.WriteLine("ВВедите число b1");
-int b1 = Convert.ToInt32(Console.ReadLine());
+double b1 = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine();
 Console.WriteLine("ВВедите число b2");
-int b2 = Convert.ToInt32(Console.ReadLine());
+double b2 = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine();
 Console.WriteLine("ВВедите число k1");
-int k1 = Convert.ToInt32(Console.ReadLine());
+double k1 = Convert.ToInt32(Console.ReadLine());
 //Console.WriteLine();
 Console.WriteLine("ВВедите число k2");
-int k2 = Convert.ToInt32(Console.ReadLine());
+double k2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
+
+if (b1=b2 && k1=k2) Console.WriteLine("прямые совпадают");
+    //return"прямые совпадают";
+else if (k1*b1-k2*b2 == 0) Console.WriteLine("прямые параллельны");
+    //return"прямые параллельны";
+
+double x = (b2-b1)/(k1-k2);  
+double y = b1+k1*(b2-b1)/(k1-k2);
+
+Console.WriteLine();
+
+Console.WriteLine(x);
+Console.WriteLine(y);
+
+
+
+
+
+
 
 
