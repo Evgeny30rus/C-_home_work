@@ -156,6 +156,25 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine($"[{string.Join(", ", array)}]");
 // release(array);
 
+// Задача 38: Задайте массив вещественных чисел.
+// Найдите разницу между максимальным и минимальным элементов массива.
+// [3 7 22 2 78] -> 76
+
+// double test(double[] array)
+// {
+// double min = array[0];
+// double max = array[0];
+
+// foreach (double i in array){
+// if (min > i)
+// min = i;
+// if (i > max)
+// max = i;
+// }
+// return max - min;
+// }
+
+
 // Как внести в массив строку цифр введенную пользователем спародически?
 
 // Console.Write("Введите элементы, разделяя их точкой(.): ");
@@ -165,13 +184,72 @@ Console.WriteLine("Hello, World!");
 // Console.Write("Итоговый массив");
 // Console.WriteLine();
 
-// foreach (int i in size)
+// foreach (int i in size)    //Для одномерных массивов оператор foreach обрабатывает элементы в порядке возрастания индекса, начиная с индекса 0 и заканчивая индексом Length - 1
 // Console.WriteLine(i);
 
 // SPLIT - функция разделяющая 5 6 7 8 на разные блоки и вносим в массив. разделитель чисел или блоков символы в кавычках, т.е. (.) - итог  ["5", "6", "7", "8"]
 // SELECT - функция берет элемент х и преобразует в целое число (изменяет тип данных) 
 // ToArray - функция преобразования в массив
 // int.Parse - преобразует какой то тип данных в число
+
+
+// **Задача 39:** Напишите программу, которая перевернёт одномерный массив
+// (последний элемент будет на первом месте, а первый - на последнем и т.д.)
+// [1 2 3 4 5] -> [5 4 3 2 1]
+// [6 7 3 6] -> [6 3 7 6]
+// 
+// void InputArray(int[] array)
+// {
+// for (int i = 0; i < array.Length; i++)
+// array[i] = new Random().Next(1, 11); // [1, 10]
+// }
+
+// void release(int[] array)
+// {
+//    for (int i = 0; i < array.Length / 2; i++)
+//     {
+//      int temp = array[i];
+//      array[i] = array[array.Length - 1 - i];
+//      array[array.Length - 1 - i] = temp;
+//     }
+// }
+
+// Console.Clear();
+// Console.Write("Введите кол-во элементов массива: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int[] array = new int[n];
+// InputArray(array);
+// Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+// release(array);
+// Console.WriteLine($"Конечный массив: [{string.Join(", ", array)}]");
+
+// **Задача 40:** Напишите программу, которая принимает на вход три числа и проверяет,
+// может ли существовать треугольник с сторонами такой длины.
+// ❗ **Теорема о неравенстве треугольника:** каждая сторона треугольника меньше суммы двух других сторон.
+
+// void InputArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//          array[i] = new Random().Next(1, 11); // [1, 10]
+// }
+
+// string Triangle(int[] array)
+// {
+//     if(array[0] < array[1] + array[2] &&
+//        array[1] < array[0] + array[2] &&
+//        array[2] < array[0] + array[1])
+//     return "yes";
+// return "no";
+// }
+// Console.Clear();
+// int[] array = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
+// Console.WriteLine(Triangle(array));
+
+
+
+
+
+
 
 
 
