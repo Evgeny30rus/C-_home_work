@@ -61,23 +61,22 @@ Console.WriteLine("ВВедите число k2");
 double k2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
 
-if (b1=b2 && k1=k2) Console.WriteLine("прямые совпадают");
-    //return"прямые совпадают";
-else if (k1*b1-k2*b2 == 0) Console.WriteLine("прямые параллельны");
-    //return"прямые параллельны";
+// if (b1=b2 && k1=k2) Console.WriteLine("прямые совпадают"); - ошибку (64,8): 
+//error CS0019: Оператор "&&" невозможно применить к операнду типа "double" и "double". не смог победить, 
+//без этой проверки работает
+    
+//else 
+if (k1*b1-k2*b2 == 0) Console.WriteLine("прямые параллельны");
 
 double x = (b2-b1)/(k1-k2);  
 double y = b1+k1*(b2-b1)/(k1-k2);
 
 Console.WriteLine();
 
+Console.WriteLine("Координата Х точки пересечения");
 Console.WriteLine(x);
+Console.WriteLine("Координата Y точки пересечения");
 Console.WriteLine(y);
 
-
-
-
-
-
-
-
+Console.WriteLine();
+Console.WriteLine("конец алгоритма 43");
