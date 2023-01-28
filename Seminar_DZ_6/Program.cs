@@ -66,11 +66,12 @@ Console.WriteLine();
 //без этой проверки работает
     
 //else 
-if (k1*b1-k2*b2 == 0) Console.WriteLine("прямые параллельны");
+if (k1*b1-k2*b2 == 0)
+    Console.WriteLine("прямые параллельны или совпадают");
+//    return ;
 
 double x = (b2-b1)/(k1-k2);  
 double y = b1+k1*(b2-b1)/(k1-k2);
-
 Console.WriteLine();
 
 Console.WriteLine("Координата Х точки пересечения");
@@ -80,3 +81,7 @@ Console.WriteLine(y);
 
 Console.WriteLine();
 Console.WriteLine("конец алгоритма 43");
+
+
+
+
