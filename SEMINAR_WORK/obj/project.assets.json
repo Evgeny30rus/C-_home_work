@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_home_work\\SEMINAR_WORK\\SEMINAR_WORK.csproj",
+      "projectUniqueName": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\SEMINAR_WORK\\SEMINAR_WORK.csproj",
       "projectName": "SEMINAR_WORK",
-      "projectPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_home_work\\SEMINAR_WORK\\SEMINAR_WORK.csproj",
+      "projectPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\SEMINAR_WORK\\SEMINAR_WORK.csproj",
       "packagesPath": "C:\\Users\\EO\\.nuget\\packages\\",
-      "outputPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_home_work\\SEMINAR_WORK\\obj\\",
+      "outputPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\SEMINAR_WORK\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EO\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -156,5 +156,25 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine($"[{string.Join(", ", array)}]");
 // release(array);
 
+// Как внести в массив строку цифр введенную пользователем спародически?
+
+// Console.Write("Введите элементы, разделяя их точкой(.): ");
+
+// int [] size = Console.ReadLine().Split(".").Select(x=>int.Parse(x)).ToArray();  
+
+// Console.Write("Итоговый массив");
+// Console.WriteLine();
+
+// foreach (int i in size)
+// Console.WriteLine(i);
+
+// SPLIT - функция разделяющая 5 6 7 8 на разные блоки и вносим в массив. разделитель чисел или блоков символы в кавычках, т.е. (.) - итог  ["5", "6", "7", "8"]
+// SELECT - функция берет элемент х и преобразует в целое число (изменяет тип данных) 
+// ToArray - функция преобразования в массив
+// int.Parse - преобразует какой то тип данных в число
+
+
+
+
 
 
