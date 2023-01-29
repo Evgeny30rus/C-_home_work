@@ -76,12 +76,12 @@ Console.WriteLine("Hello, World!");
 
 // string release(int[] array, int k)
 // {
-    
+
 //     for (int i = 0; i < array.Length; i++)
 //         if (array[i] == k)
 //             return "+";
 //     return "-";
-    
+
 // }
 
 // Console.Clear();
@@ -144,9 +144,9 @@ Console.WriteLine("Hello, World!");
 // {
 //     for (int i = 0; i <= array.Length/2; i++)                            // идем до середины включительно
 //         Console.Write($"{array[i] * array[array.Length - 1 - i]} ");     // первый и последний * друг на друга
-        
+
 //     //[1, 2 , 3, 4 , 5]
-    
+
 // }
 
 // Console.Clear();
@@ -293,6 +293,257 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine(string.Join(" ", b));
 
 
+// 50.Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, 
+//  и возвращает значение этого элемента или же указание, что такого элемента нет.
+
+// bool Find(int[,] matrix, int el){
+//     for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matrix.GetLength(1); j++)
+//         {
+//             if (matrix[i,j] == el)
+//                 return true;
+//         }
+//     }
+//     return false;
+// }
 
 
+// Console.Clear();
+// Console.Write("Введите размер матрицы: ");
+// int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
+// // size[0] - row
+// // size[1] - column
+// int[,] matrix = new int[size[0], size[1]];
+// Console.WriteLine("Начальный массив:");
+// InputMatrix(matrix);
+// PrintMatrix(matrix);
+
+// Console.WriteLine("Введите элемент:");
+// int el = Convert.ToInt32(Console.ReadLine());
+// bool find = Find(matrix, el);
+// Console.WriteLine(find);
+
+// Задача 52: Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+
+// double[] Release(int[,] matrix){
+//     double[] res = new double[matrix.GetLength(1)];
+//     for (int j = 0; j < matrix.GetLength(0); j++)
+//     {
+//         double sum = 0;
+//         for (int i = 0; i < matrix.GetLength(1); i++)
+//         {
+//             sum += matrix[i,j];
+//         }
+//         res[j] = Math.Round(sum/matrix.GetLength(0), 2);
+//     }
+//     return res;
+// }
+
+
+// Console.Clear();
+// Console.Write("Введите размер матрицы: ");
+// int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
+// // size[0] - row
+// // size[1] - column
+// int[,] matrix = new int[size[0], size[1]];
+// Console.WriteLine("Начальный массив:");
+// InputMatrix(matrix);
+// PrintMatrix(matrix);
+
+// double[] res = Release(matrix);
+// Console.WriteLine();
+// Console.WriteLine(String.Join(' ', res));
+
+//Задача 53: Задайте двумерный массив. 
+//Напишите программу, которая поменяет местами первую и последнюю строку массива.
+
+// верха нет взять из семинара
+// void PrintMatrix(int[,] matrix)
+// {
+//     for (int i = 0; i < matrix.GetLongLength(0); i++)
+//     {
+//         for (int j = 0; j < matrix.GetLongLength(1); j++)
+//             Console.WriteLine($"{matrix[i, j]} \t");
+//         Console.WriteLine();
+//     }
+// }
+
+
+// int[,] Release(int[,] matrix){
+//     for (int j = 0; j < matrix.GetLength(0); j++)
+//     {
+//         int temp = matrix[0, j]; 
+//         matrix[0, j] = matrix[matrix.GetLength(0) - 1, j];
+//         matrix[matrix.GetLength(0) - 1, j] = temp;
+//     }
+//     return matrix;
+// }
+
+
+// Console.Clear();
+// Console.Write("Введите размер матрицы: ");
+// int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
+// // size[0] - row
+// // size[1] - column
+// int[,] matrix = new int[size[0], size[1]];
+// Console.WriteLine("Начальный матрица:");
+// InputMatrix(matrix);
+// PrintMatrix(matrix);
+
+// Console.WriteLine("Конечная матрица:");
+// PrintMatrix(Release(matrix));
+
+// Задача 55: Задайте двумерный массив. Напишите программу, которая заменяет строки на столбцы.
+//  В случае, если это невозможно, программа должна вывести сообщение для пользователя.
+
+// вверх????
+
+// Release(int[,] matrix){
+//     for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         for (int j = i + 1; j < matrix.GetLength(1); j++)
+//         {
+//             int temp = matrix[i,j];
+//             matrix[i,j] = matrix[j,i];
+//             matrix[j,i] = temp;
+//         }
+//     }
+//     return matrix;
+// }
+
+
+// Console.Clear();
+// Console.Write("Введите размер матрицы: ");
+// int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
+// while (size[0] != size[1])
+// {
+//     Console.Write("Ошибка!! Введите размер матрицы: ");
+//     size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
+// }
+// // size[0] - row
+// // size[1] - column
+// int[,] matrix = new int[size[0], size[1]];
+// Console.WriteLine("Начальный матрица:");
+// InputMatrix(matrix);
+// PrintMatrix(matrix);
+
+// Console.WriteLine("Конечная матрица:");
+// PrintMatrix(Release(matrix));
+
+// Задача 57: Составить частотный словарь элементов двумерного массива. 
+// Частотный словарь содержит информацию о том, сколько раз встречается элемент входных данных.
+
+
+// bool check(int[] array, int n)
+// {
+//     for (int i = 0;i < array.Length; i++)
+//     {
+//         if (array[i] == n)
+//             return false;
+//     }
+//     return true;
+// }
+
+// int InputMatrix(int[,] matrix, int[] array)
+// {
+//     int k = 0;
+//     for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matrix.GetLength(1); j++)
+//         {
+//             matrix[i, j] = new Random().Next(0, 11); // [-10, 10]
+//             Console.Write($"{matrix[i, j]} \t");
+//             if (check(array, matrix[i,j])){
+//                 array[k] = matrix[i,j];
+//                 k++;
+//             }
+//         }
+//         Console.WriteLine();
+//     }
+//     return k;
+// }
+// void Release(int[,] matrix, int [] array, int array_len)
+// {
+//     for (int k = 0; k < array_len; k++)
+//     {
+//         int count = 0; 
+//         for (int i = 0; i < matrix.GetLength(0); i++)
+//         {
+//             for (int j = 0; j < matrix.GetLength(1); j++)
+//             {
+//                 if (array[k] == matrix[i,j])
+//                     count++;
+//             }
+//         }
+//         Console.WriteLine($"Элемент {array[k]} - {count} раз");
+//     }
+// }
+
+// Console.Clear();
+// Console.Write("Введите размер матрицы: ");
+// int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
+// int[] array = new int[size[0] * size[1]];
+// // size[0] - row
+// // size[1] - column
+// int[,] matrix = new int[size[0], size[1]];
+// Console.WriteLine("Начальный матрица:");
+// int k = InputMatrix(matrix, array);
+// Release(matrix, array, k);
+
+// // Console.WriteLine("Конечная матрица:");
+// // PrintMatrix(Release(matrix));
+
+// Задача 59: Задайте двумерный массив из целых чисел. Напишите программу,
+//  которая удалит строку и столбец, на пересечении которых расположен наименьший элемент массива.
+
+// void InputMatrix(int[,] matrix)
+// {
+//     for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matrix.GetLength(1); j++)
+//         {
+//             matrix[i, j] = new Random().Next(1, 11); // [1, 10]
+//             Console.Write($"{matrix[i, j]} \t");
+//         }
+//         Console.WriteLine();
+//     }
+// }
+// void Release(int[,] matrix)
+// {
+//     int min_v = matrix[0, 0], min_row = 0, min_col = 0;
+//         for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matrix.GetLength(1); j++)
+//         {
+//             if( min_v > matrix[i,j])
+//             {
+//                 min_v = matrix[i,j];
+//                 min_row = i;
+//                 min_col = j;
+//             }
+//         }
+//     }
+//     Console.WriteLine($"{min_v}  ({min_row};{min_col})");
+
+//     for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         if (i != min_row) {
+//             for (int j = 0; j < matrix.GetLength(1); j++)
+//             {
+//                 if (j != min_col)
+//                     Console.Write($"{matrix[i, j]} \t");
+//             }
+//             Console.WriteLine();
+//         }
+//     }
+// }
+// Console.Clear();
+// Console.Write("Введите размер матрицы: ");
+// int[] coord = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
+// int[,] matrix = new int[coord[0], coord[1]];
+// Console.WriteLine("Начальный массив");
+// InputMatrix(matrix);
+// Console.WriteLine("Конечный массив");
+// Release(matrix);
 
