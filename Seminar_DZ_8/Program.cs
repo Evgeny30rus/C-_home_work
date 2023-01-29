@@ -49,12 +49,12 @@ int [,] Min_Max_ROW(int[,] matr)   // метод упорядочит значе
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            for (k = 0; k < matr.GetLength(1) - 1; k++) ;
+            for (k = 0; k < matr.GetLength(1) - i-1; k++) ;
             {
-                if (matr[i, k] < matr[i, k + 1])
+                if (matr[i, j] > matr[i, k+1]);
                 {
-                    max = matr[i, k + 1];
-                    matr[i, k + 1] = matr[i, k];
+                    max = matr[i,k+1];
+                    matr[i,k+1] = matr[i, k];
                     matr[i, k] = max;
                 }
             }
