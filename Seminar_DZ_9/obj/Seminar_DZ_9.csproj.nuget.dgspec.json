@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_9\\Seminar_DZ_9.csproj": {}
+  },
+  "projects": {
+    "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_9\\Seminar_DZ_9.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_9\\Seminar_DZ_9.csproj",
+        "projectName": "Seminar_DZ_9",
+        "projectPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_9\\Seminar_DZ_9.csproj",
+        "packagesPath": "C:\\Users\\EO\\.nuget\\packages\\",
+        "outputPath": "J:\\Мой диск\\0 GEEK BRAINS WORK\\git_work\\C# HOME_work\\C-_work\\Seminar_DZ_9\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
