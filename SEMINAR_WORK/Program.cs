@@ -324,7 +324,8 @@ Console.WriteLine("Hello, World!");
 // bool find = Find(matrix, el);
 // Console.WriteLine(find);
 
-// Задача 52: Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+// Задача 52: Задайте двумерный массив из целых чисел. 
+// Найдите среднее арифметическое элементов в каждом столбце.
 
 // double[] Release(int[,] matrix){
 //     double[] res = new double[matrix.GetLength(1)];
