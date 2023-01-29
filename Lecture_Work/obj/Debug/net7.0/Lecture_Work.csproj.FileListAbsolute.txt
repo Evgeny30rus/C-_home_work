@@ -1,0 +1,15 @@
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\bin\Debug\net7.0\Lecture_Work.exe
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\bin\Debug\net7.0\Lecture_Work.deps.json
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\bin\Debug\net7.0\Lecture_Work.runtimeconfig.json
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\bin\Debug\net7.0\Lecture_Work.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\bin\Debug\net7.0\Lecture_Work.pdb
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\Lecture_Work.csproj.AssemblyReference.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\Lecture_Work.GeneratedMSBuildEditorConfig.editorconfig
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\Lecture_Work.AssemblyInfoInputs.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\Lecture_Work.AssemblyInfo.cs
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\Lecture_Work.csproj.CoreCompileInputs.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\Lecture_Work.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\refint\Lecture_Work.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\Lecture_Work.pdb
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\Lecture_Work.genruntimeconfig.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Lecture_Work\obj\Debug\net7.0\ref\Lecture_Work.dll
