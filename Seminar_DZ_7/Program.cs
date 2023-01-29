@@ -21,7 +21,7 @@ void PrintArray (int[,] matr)  //метод для распечатки матр
     {
         for (int j = 0; j < matr.GetLength(1); j++)  // по столбцам    
         {
-        Console.Write($"/{matr[i, j]}/ ");
+        Console.Write($"|{matr[i, j]}| ");
         }
     Console.WriteLine(); // чтобы получить прямоугольник
     }
@@ -61,31 +61,32 @@ Console.WriteLine();
 Console.Write("Задача 50.Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.");
 Console.WriteLine(); 
 
-bool Find(int[,] matr, int el)                         // проверка нахождения цифры внутри матрицы
+string Find(int[,] matr, int el)                         // проверка нахождения цифры внутри матрицы
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
             if (matr[i,j] == el)
-                return true;
+                return "Элемент найден";
         }
     }
-    return false;
+    return "Элемент не найден";
 }
 
-Console.Write("Введите размер матрицы: ");
+Console.Write("Введите размер матрицы Строка*Столбец через пробел: ");
 int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
 
 int[,] matrix1 = new int[size[0], size[1]]; // size 0; size 1 = size 0 для простоты можо сделать (квадратная матрица)
 Console.WriteLine("Начальный массив:");
 PrintArray(matrix1);
     FillArray(matrix1);
+Console.WriteLine("Заполненный массив:"); //Console.WriteLine();
 PrintArray(matrix1);
 
-Console.WriteLine("Введите элемент:");
+Console.WriteLine("Введите элемент для поиска:");
 int el = Convert.ToInt32(Console.ReadLine());
-bool find = Find(matrix1, el);
+string find = Find(matrix1, el);
 Console.WriteLine(find);
 
 Console.WriteLine();
@@ -102,9 +103,34 @@ Console.WriteLine();
 Console.Write("Задача 52.Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.");
 Console.WriteLine(); 
 
+double[] Averedge(int[,] matr)                 // Нахождение средне арифмитического в каждом столбце массива
+{
+    double[] res = new double[matr.GetLength(1)];
+    for (int j = 0; j < matr.GetLength(0); j++)
+    {
+        double sum = 0;
+        for (int i = 0; i < matr.GetLength(1); i++)
+        {
+            sum += matr[i,j];
+        }
+        res[j] = Math.Round(sum/matr.GetLength(0), 2);
+    }
+    return res;
+}
 
+Console.Write("Введите размер матрицы одной цифрой: ");
+int[] size1 = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
 
+int[,] matrix2 = new int[size1[0], size1[0]];
+Console.WriteLine("Начальный массив:");
+PrintArray(matrix2);
+    FillArray(matrix2);
+Console.WriteLine("Заполненный массив:"); //Console.WriteLine();
+PrintArray(matrix2);
 
+double[] res = Averedge(matrix2);
+Console.WriteLine();
+Console.WriteLine(String.Join(' ', res));
 
 Console.WriteLine();
 Console.WriteLine("конец алгоритма 52");
