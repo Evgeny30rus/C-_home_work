@@ -1,0 +1,15 @@
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\bin\Debug\net7.0\Seminar_DZ_7.exe
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\bin\Debug\net7.0\Seminar_DZ_7.deps.json
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\bin\Debug\net7.0\Seminar_DZ_7.runtimeconfig.json
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\bin\Debug\net7.0\Seminar_DZ_7.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\bin\Debug\net7.0\Seminar_DZ_7.pdb
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\Seminar_DZ_7.csproj.AssemblyReference.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\Seminar_DZ_7.GeneratedMSBuildEditorConfig.editorconfig
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\Seminar_DZ_7.AssemblyInfoInputs.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\Seminar_DZ_7.AssemblyInfo.cs
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\Seminar_DZ_7.csproj.CoreCompileInputs.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\Seminar_DZ_7.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\refint\Seminar_DZ_7.dll
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\Seminar_DZ_7.pdb
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\Seminar_DZ_7.genruntimeconfig.cache
+J:\Мой диск\0 GEEK BRAINS WORK\git_work\C# HOME_work\C-_work\Seminar_DZ_7\obj\Debug\net7.0\ref\Seminar_DZ_7.dll
