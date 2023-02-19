@@ -80,3 +80,52 @@ Console.WriteLine();
 FillArray(matrix);
 PrintArray(matrix); 
 
+int[,] pic = new int[,] // необходимо ввести массив
+
+void PrintImage (int[,] image)  // метод для распечатки картинки и замены чисел
+{
+    for (int i = 0; i < image.GetLength(0); i++)  // по строкам  дает тоже самое что указано выще в размерности  
+    {
+        for (int j = 0; j < image.GetLength(1); j++)  // по столбцам    
+        {
+        //Console.Write($"/{image[i, j]}/ ");
+        if(image[i,j] == 0) Console.Write($" ");
+        else Console.Write($"+");
+        }
+    Console.WriteLine(); // чтобы получить прямоугольник
+    }
+}
+PrintImage(pic);
+
+
+// Рекурсия - функция, которая определеяется через саму себя...
+
+// Вычисление факториала 3! = 3*2*1 = 3*2!
+
+int Factorial (int n1)
+{
+   //1! = 1
+   //0! = 1
+   if (n1==1) return 1;
+   else return n1 * Factorial(n1-1);
+}
+Console.WriteLine(Factorial(3)); //1*2*3 = 6
+
+// Числа Фибоначи - первые два числа равны 0 и 1, а каждое последующее число равно сумме двух предыдущих чисел,
+// f(0) = 0
+// f(1) = 1
+// f(2) = 1
+// f(n) = f(n-1) + f(n-2)
+
+double Fibo (int n)
+{
+   if(n==1 || n-2) return 1;
+   else return Fibo(n-1) + Fibo(n-2);
+}
+for (int i=1; i<10; i++)
+{
+    Console.WriteLine(Fibo(i));
+}
+
+
+
