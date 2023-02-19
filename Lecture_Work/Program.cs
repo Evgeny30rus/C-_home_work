@@ -161,4 +161,36 @@ int Sum_For(int n)
    
    return result; 
 } 
+// Решение стандарт через рекурсию:
+
+int Sum_Recurs(int n)
+{
+    if (n==0) return 0;
+    else return n + Sum_Recurs(n-1);
+}
+
+Console.WriteLine(Sum_For(10));    // 55
+Console.WriteLine(Sum_Recurs(10)); // 55
+
+// Задача - вывести факториал числа N, N!
+// Решение стандарт через цикл:
+
+int Factorial_For(int n)
+{
+    int result = 1;
+    for (int i=1; i<=n; i++) result *= i;
+    return result;
+}
+// Решение стандарт через рекурсию:
+int Factorial_Recurs (int n1)
+{
+   //1! = 1
+   //0! = 1
+   if (n1==1) return 1;
+   else return n1 * Factorial_Recurs(n1-1);
+}
+Console.WriteLine(Factorial_Recurs(3)); //1*2*3 = 6
+Console.WriteLine(Factorial_For(3));    //1*2*3 = 6
+
+
 

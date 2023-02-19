@@ -15,21 +15,31 @@ Console.Write("Задача 66: Задайте значения M и N. Напи
 Console.WriteLine();
 
 
-int rec(int m, int n)
+// int rec(int m, int n)
+// {
+//     if (n == m)
+//         return 0;
+//     return rec(m,n - 1) + n + m;
+// }
+
+double Sum_Recurs(double m, double n)
 {
-    if (n == m)
-        return 0;
-    return rec(m,n - 1) + n + m;
+    // if (n==0) return 0;
+    // if (m==0) return 0;
+    if (n==m) return 0;
+        return n + Sum_Recurs(m,n-1);
 }
 
-Console.Clear();
+
+//Console.Clear();
 Console.Write("Введите первое число: ");
-int m = Convert.ToInt32(Console.ReadLine());
+double m = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("Введите второе число: ");
-int n = Convert.ToInt32(Console.ReadLine());
+double n = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(rec(m, n));
-
+// Console.WriteLine(rec(m, n));
+Console.WriteLine(Sum_Recurs(m,n)); // 55
 
 
 
