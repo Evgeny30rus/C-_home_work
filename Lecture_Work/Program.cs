@@ -127,5 +127,38 @@ for (int i=1; i<10; i++)
     Console.WriteLine(Fibo(i));
 }
 
+// Задача - вывести строку с числами от А до В, где А<=B
+// Решение стандарт через цикл:
 
+string Number_For(int a, int b)
+{
+   string result = String.Empty;
+   for (int i = a; i <= b; i++)   // если условие А>=B =>  for (int i=a; i>=b; i--)
+   {
+    result += $"{i} ";
+   }
+   return result; 
+} 
+
+// Решение стандарт через рекурсию:
+string Number_Recurs(int a, int b)
+{
+   if (a <= b) return $"{a} " + Number_Recurs(a+1, b);  // если условие А>=B =>  if (a <= b) return Number_Recurs(a+1, b) + $"{a} "; 
+   else return String.Empty;
+}
+
+Console.WriteLine(Number_For(1,10));    // 1 2 3 ... 10
+Console.WriteLine(Number_Recurs(1,10)); // 1 2 3 ... 10
+
+// Задача - вывести сумму чисел от 1 до N,
+// Решение стандарт через цикл:
+
+int Sum_For(int n)
+{
+   int result = 0;
+   for (int i = 1; i <= n; i++) 
+    result += i;
+   
+   return result; 
+} 
 
